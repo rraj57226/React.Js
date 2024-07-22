@@ -7,7 +7,7 @@ const [from, setFrom] = useState("usd")
 const [to, setTo] = useState("inr")
 const [convertedAmount, setConvertedAmount] = useState(0)
 
-const currencyInfo = useCurrencyInfo(from)
+const currencyInfo = UseCurrencyInfo(from)
 
 const options = Object.keys(currencyInfo)
 
