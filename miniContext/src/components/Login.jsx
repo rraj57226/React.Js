@@ -27,3 +27,5 @@ return (
         </section>
     )
 }
+
+export default Login;

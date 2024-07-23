@@ -7,3 +7,5 @@ function Profile () {
     if(!user) return <div>Please Login</div>
     return <div>Welcome {useReducer.username}</div>
 }
+
+export default Profile;
